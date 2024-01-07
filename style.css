@@ -10,8 +10,12 @@
     background-position: bottom center;
     width: 1320px;
     height: 600px;
-    border: 16px;
-    margin: 50px 100px 50px;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    padding: 100px 51px;
 }
 .banner-text{
     padding-top: 177px;
@@ -34,3 +38,40 @@
 }
 
 /* banner styles end */
+
+.offer-section{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+.offer{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.our-holiday{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.all-cate{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-img{
+    display: flex;
+    justify-content: center;
+}
+
+/* offer section styles end */
