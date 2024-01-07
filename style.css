@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Merriweather;
 }
 
 .banner{
@@ -75,3 +74,48 @@
 }
 
 /* offer section styles end */
+.container{
+    background-image: url(images/Vectorrr.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 600px;
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.wlc-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.wlc-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.wlc-wrapper{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.wlc-btn{
+    color: #682424;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+.right-photo img {
+    width: 100%;
+}
+.left-content{
+    margin-left: 40px;
+}
+/* welcome to midnight party style end */
+
