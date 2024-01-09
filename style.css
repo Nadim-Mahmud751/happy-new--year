@@ -135,7 +135,14 @@
 }
 .Portfolio .item img {
     width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
 }
+
+.Portfolio .item img:hover {
+    transform: scale(1.1);
+}
+
 .the-best{
     color: #F00;
     font-family: Inter;
@@ -177,6 +184,16 @@
 }
 .input-box{
     text-align: center;
+    border-radius: 50px;
+
+}
+.text{
+    color: rgba(7, 2, 17, 0.30);
+
+   text-align: center;
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 400;
 }
 .end-btn{
     border-radius: 0px 50px 50px 0px;
@@ -187,6 +204,10 @@
     font-weight: 600;
 }
 .color-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background: rgba(255, 0, 0, 0.05);
     width: 1320px;
     height: 616px;
@@ -199,13 +220,25 @@
     height: 609px;
     background: #070211;
 }
-.social{
+.social {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 64px;
-    height: 64px;
-    flex-shrink: 0;
 }
-.bio{
-    background-color: #FFF;
+.social a {
+    margin: 220px 10px;
+}
+.social img {
+    width: 50px;
+    height: auto;
+}
+.right {
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+}
+
+.bio {
+    text-align: right;
+    color: white;
 }
